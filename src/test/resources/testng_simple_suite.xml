@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SimpleSuite" verbose="1">
+    <test name="SimpleRegression">
+        <classes>
+            <class name="scenario_e2e.RegisterUserE2E"/>
+            <class name="scenario_e2e.AddObjectE2E"/>
+            <class name="scenario_e2e.DeleteObjectE2E"/>
+        </classes>
+    </test>
+</suite>
