@@ -1,5 +1,22 @@
 # Automation-BootcampAfterOffice-Selenium
 
+# WEEK 3 (TASK 4) - Refactoring Code
+
+1. How to run the test?
+   - Using Terminal write
+     `mvn test -DsuiteXml="src\test\resources\cucumber_suite.xml"`
+   - The result will be displaying on Terminal
+2. Location of the scripts :
+   ```
+   src\test\java\cucumber\Endpoints.java
+   src\test\java\cucumber\TestContext.java
+   src\test\java\helper\ConfigManager.java
+   src\test\java\helper\GenerateReport.java
+   .env-production
+   [UPDATED] src\test\java\cucumber\definitions
+   [UDATED] src\test\java\cucumber\hooks
+   ```
+
 # WEEK 2 (TASK 3) - Cucumber for API Testing with TestNG & POJO
 
 1. How to run the test?
@@ -33,8 +50,8 @@
    - Delete Object & Validation on the list and single object after deleted the object
 3. Location of the scripts :
    ```
-   src\main\java\com\demo\testng\program\model
-   src\main\java\com\demo\testng\program\response_model
+   src\main\java\model
+   src\main\java\response_model
    src\test\java\scenario_e2e\pojo
    src\test\resources\register_user_schema.json
    src\test\resources\add_object_schema.json

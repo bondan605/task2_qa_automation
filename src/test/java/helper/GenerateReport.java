@@ -1,10 +1,10 @@
-package cucumber.helper;
-
-import net.masterthought.cucumber.Configuration;
-import net.masterthought.cucumber.ReportBuilder;
+package helper;
 
 import java.io.File;
 import java.util.Collections;
+
+import net.masterthought.cucumber.ReportBuilder;
+import net.masterthought.cucumber.Configuration;
 
 public class GenerateReport {
     public static void generateReport() {
