@@ -4,8 +4,10 @@
 
 1. How to run the test?
    - Using Terminal write
-     `mvn test -DsuiteXml="src\test\resources\testng_pojo_e2e.xml"`
-     `mvn test -DsuiteXml="src\test\resources\testng_simple_suite.xml"`
+   ```
+     mvn test -DsuiteXml="src\test\resources\testng_pojo_e2e.xml"
+     mvn test -DsuiteXml="src\test\resources\testng_simple_suite.xml"
+   ```
    - The result will be displaying on Terminal & Test Results
 2. E2E Test Scenario that i scripted;
    - Register and validation to login with registered data
