@@ -4,9 +4,17 @@
 
 1. How to run the test?
    - Using Terminal write
+<<<<<<< HEAD
      `mvn test -DsuiteXml="src\test\resources\testng_pojo_e2e.xml"`
      `mvn test -DsuiteXml="src\test\resources\testng_simple_suite.xml"`
    - The result will be displaying on Terminal & Test Results
+=======
+     ``` 
+     mvn test -DsuiteXml="src\test\resources\testng_pojo_e2e.xml"
+     mvn test -DsuiteXml="src\test\resources\testng_simple_suite.xml"
+     ```
+   - The result will be displaying on Terminal & Test Results  
+>>>>>>> 8ee66363c3c868330d9990e343bc7d4cd1f49691
 2. E2E Test Scenario that i scripted;
    - Register and validation to login with registered data
    - Add Object & Validation on the list and single object after added the object
